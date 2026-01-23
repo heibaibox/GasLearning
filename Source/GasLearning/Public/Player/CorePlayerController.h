@@ -13,4 +13,8 @@ UCLASS()
 class GASLEARNING_API ACorePlayerController : public APlayerController
 {
 	GENERATED_BODY()
+
+
+protected:
+	virtual void AcknowledgePossession(APawn* P) override;
 };
